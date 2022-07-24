@@ -4,17 +4,22 @@
    box-sizing: border-box;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:wght@300&display=swap');
+
+/*Menu de la pagina  */
+
 .menu {
     background-color: #1A202C;
     color: #fff;
     height: 50px;
-    font-size: 18px;
-    position: fixed;
     width: 100%;
+    position: fixed;
+    font-size: 20px ;
 }
 
 .menu__container {
     display: flex;
+    justify-content: space-between;
     align-items: center;
     width: 90%;
     max-width: 1200px;
@@ -33,7 +38,6 @@
     position: relative;
     height: 100%;
 }
-
 .menu__link{
     color: #fff;
     text-decoration: none;
@@ -47,24 +51,116 @@
 }
 
 .menu__hamburguer{
-    width: 100%;
+    height: 100%;
     display: flex;
+    align-items: center;
+    padding: 0 15px;
     cursor: pointer;
     display: none;
-    position: fixed;
-    background-color: #1A202C;
 }
 
 .menu__img {
     display: block;
     width: 36px;
 }
+/* Imagen de portada */
+
+.imagen__portada{
+    width: 100%;
+    height: 600px;
+}
+/* TITULO  */
+h1{
+    text-align: center;
+    min-width: 200px;
+    color: #fff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+}
+
+/* informacion de la empresa  */
+
+h2{
+    font-size: 40px;
+    text-align: center;
+    margin-top: 70px;
+    color:rgb(14, 25, 108);
+}
+.informacionEmpresa{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    border: 1px solid blue;
+    margin-top: 30px;
+}
+.imagen1{
+    width: 100%;
+    height: 400px;
+}
+.informacionEmpresa > p{
+    font-size: 20px;
+    margin: 30px;
+    margin-top: 70px;
+}
+
+/* Servicios de la pagina */
+
+.servicios__container{
+    width: 100%;
+    border: 1px solid black;
+    margin-top: 100px;
+    overflow: hidden;
+}
+.iconos {
+    width: 100px;
+}
+
+/* */
+
+/* Nuestros Clientes */
+.imagen__clientes {
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+}
+.clientes__container{
+    width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.clientes-contenedor{
+    width: 100%;
+    display: flex;
+}
+.clientes__slider{
+    width: 100%;
+    height: 400px;
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-shrink: 0;
+    border: 1px solid black;
+    background: rgb(24,34,108);
+    background: linear-gradient(280deg, rgba(24,34,108,1) 0%, rgba(0,154,185,1) 0%, rgba(94,112,148,1) 1%);
+}
+.clientes__slider > .imagen__clientes{
+    border-radius: 50%;
+    border: 2px solid black;
+    margin: 100px;
+}
+.clientes__slider > p {
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 400;
+    text-align: center;
+    margin-right: 100px;
+}
 
 @media (max-width: 800px){
+    /*Menu de la pagina  */
     .menu__hamburguer{
         display: flex;
-        position: fixed;
-        width: 100%;
     }
     .menu__item{
         --clip:0;
@@ -77,12 +173,12 @@
     .menu__item--show{
         background-color: var(--background);
     }
+
     .menu__links{
         position: fixed;
         max-width: 700px;
         width: 100%;
         top: 50px;
-        bottom: 0;
         right: 0;
         background-color: #1A202C;
         overflow-y: auto;
@@ -90,26 +186,25 @@
         grid-auto-rows: max-content;
         transform: translateX(100%);
     }
+
     .menu__links--show {
         transform: unset;
         width: 100%;
     }
+
     .menu__link{
         padding: 25px 0;
         padding-left: 30px;
         height: auto;
     }
-    .menu__nesting{
-        display: grid;
-        position: unset;
-        width: 100%;
-        transform:  translateY(0);
-        height: 0;
-        transition: height .3s;
+    
+    /*Imagen de portada*/
+
+    .imagen__portada{
+        width: 370px;
+        height: 370px;
     }
-    .menu__link--inside{
-        width: 90%;
-        margin-left: auto;
-        border-left: 1px solid #798499;
-    }
+    /* informacion de la empresa  */
+
+
 }
