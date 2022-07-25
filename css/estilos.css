@@ -104,18 +104,79 @@ h2{
 }
 
 /* Servicios de la pagina */
+.iconos {
+    width: 70px;
+}
 
 .servicios__container{
     width: 100%;
-    border: 1px solid black;
-    margin-top: 100px;
-    overflow: hidden;
+    height: 800px;
 }
-.iconos {
-    width: 100px;
+.servicio__contenido{
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-around;
+}
+.servicios{
+    width: 400px;
+    height: 350px; 
+    margin-top: 50px;
+}
+.servicios > .iconos {
+    display: grid;
+    margin: 0 auto;
+    margin-top: 10px;
+    border: 1px solid black;
+    border-radius: 200px;
+    background-color: rgba(58, 112, 196);
+}
+.servicios > p {
+    text-align: center;
+    margin: 30px;
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 100;
 }
 
-/* */
+/* PROYECTOS DE LA PAGINA */
+.imagen__proyectos{
+    width: 401px;
+    height: 230px;
+    border-radius: 25px;
+}
+.proyecto__container{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    background: #edefef;
+}
+.proyecto{
+    width: 30%;
+    height: 500px;
+    border: 1px solid black;
+    background: rgb(62,77,168);
+    background: linear-gradient(195deg, rgba(62,77,168,1) 19%, rgba(38,84,199,1) 86%);
+    color: white;
+    margin: 0 auto;
+    margin-top: 50px;
+    border-radius: 30px;
+}
+.proyecto > h3 {
+    font-size: 24px;
+    text-align: center;
+    margin: 10px;
+    color: #fff;
+    border-bottom: 1px dashed black;
+}
+.proyecto > .lista {
+    list-style:none;
+    margin: 10px;
+    font-size: 18px;
+}
+.lista > li {
+    margin-top: 30px;
+}
 
 /* Nuestros Clientes */
 .imagen__clientes {
@@ -178,7 +239,7 @@ h2{
         position: fixed;
         max-width: 700px;
         width: 100%;
-        top: 50px;
+        top: 40px;
         right: 0;
         background-color: #1A202C;
         overflow-y: auto;

@@ -53,7 +53,7 @@ let slider = document.querySelector(".clientes-contenedor")
 let sliderIndividual = document.querySelectorAll(".clientes__slider")
 let contador = 1;
 let width = sliderIndividual[0].clientWidth;
-let intervalo = 5000;
+let intervalo = 7000;
 
 window.addEventListener('resize', function(){
     width = sliderIndividual[0].clientWidth;
@@ -73,7 +73,7 @@ function slides(){
             slider.style.transform = "translate(0px)";
             slider.style.transition = "transform 0s";
             contador=1;
-        },8000)
+        },7000)
     }
 }
 
