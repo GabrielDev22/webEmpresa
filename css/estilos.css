@@ -152,6 +152,7 @@ h2{
 }
 
 /* PROYECTOS DE LA PAGINA */
+
 .imagen__proyectos{
     width: 401px;
     height: 230px;
@@ -164,7 +165,7 @@ h2{
     background: #edefef;
 }
 .proyecto{
-    width: 30%;
+    width: 32%;
     height: 500px;
     border: 1px solid black;
     background: rgb(62,77,168);
@@ -191,6 +192,7 @@ h2{
 }
 
 /* Nuestros Clientes */
+
 .imagen__clientes {
     width: 400px;
     height: 400px;
@@ -234,6 +236,7 @@ h2{
     /*Menu de la pagina  */
     body{
         width: 100%;
+        height: 100%;
     }
     .menu__hamburguer{
         display: flex;
@@ -283,7 +286,7 @@ h2{
     }
     /* informacion de la empresa  */
     .informacionEmpresa{
-        width: 100%;
+        width: 500px;
         display: block;
         margin-top: 30px;
         margin: 0 auto;
