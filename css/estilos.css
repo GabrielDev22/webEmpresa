@@ -235,7 +235,7 @@ h2{
 @media (max-width: 800px){
     /*Menu de la pagina  */
     body{
-        width: 400px;
+        width: 500px;
     }
     .menu__hamburguer{
         display: flex;
@@ -254,7 +254,7 @@ h2{
     .menu__links{
         position: fixed;
         max-width: 380px;
-        width: 100%;
+        width: 400px;
         top: 40px;
         right: 0;
         background-color: #1A202C;
