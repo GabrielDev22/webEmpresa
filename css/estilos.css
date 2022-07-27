@@ -306,8 +306,8 @@ h2{
     }
     
     .servicios__container{
-        width: 400px;
-        height: 400px;
+        width: 100%;
+        height: 100%;
     }
     .servicio__contenido{
         width: 100%;
@@ -325,7 +325,7 @@ h2{
 
     /* Proyectos*/
     .imagen__proyectos{
-        width: 400px;
+        width: 100%;
         border-radius: 25px;
     }
     .proyecto__container{
@@ -348,7 +348,7 @@ h2{
         object-fit: cover;
     }
     .clientes-contenedor{
-        width: 400px;
+        width: 100%;
         display: flex;
     }
     .clientes__slider{
