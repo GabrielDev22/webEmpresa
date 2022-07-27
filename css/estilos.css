@@ -270,6 +270,7 @@ h2{
         padding-left: 30px;
         height: auto;
     }
+
     /*Imagen de portada*/
     .imagen__portada{
         width: 500px;
@@ -302,6 +303,7 @@ h2{
     }
     
     .servicios__container{
+        width: 100%;
         height: 100%;
     }
     .servicio__contenido{
