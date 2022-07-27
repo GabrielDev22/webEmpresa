@@ -235,8 +235,7 @@ h2{
 @media (max-width: 800px){
     /*Menu de la pagina  */
     body{
-        width: 800px;
-        height: 800px;
+        width: 400px;
     }
     .menu__hamburguer{
         display: flex;
