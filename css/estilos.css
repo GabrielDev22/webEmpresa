@@ -249,10 +249,9 @@ h2{
     .menu__item--show{
         background-color: var(--background);
     }
-
     .menu__links{
         position: fixed;
-        max-width: 700px;
+        max-width: 400px;
         width: 100%;
         top: 40px;
         right: 0;
@@ -262,25 +261,107 @@ h2{
         grid-auto-rows: max-content;
         transform: translateX(100%);
     }
-
     .menu__links--show {
         transform: unset;
         width: 100%;
     }
-
     .menu__link{
         padding: 25px 0;
         padding-left: 30px;
         height: auto;
     }
-    
     /*Imagen de portada*/
-
     .imagen__portada{
-        width: 370px;
+        width: 500px;
         height: 370px;
     }
+    /* TITULOS */
+    h2{
+        font-size: 30px;
+        text-align: center;
+    }
     /* informacion de la empresa  */
+    .informacionEmpresa{
+        width: 100%;
+        display: block;
+        margin-top: 30px;
+    }
+    .imagen1{
+        width: 100%;
+        height: 400px;
+    }
+    .informacionEmpresa > p{
+        font-size: 16px;
+        margin: 30px;
+        margin-top: 70px;
+    }
+
+    /*Servicios de la empresa */
+    .iconos {
+        width: 40px;
+    }
+    
+    .servicios__container{
+        height: 100%;
+    }
+    .servicio__contenido{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        margin-left: 30px;
+    }
+    .servicios{
+        width: 400px;
+        height: 300px; 
+        margin-top: 20px;
+        color: black;
+        margin-bottom: 25px;
+    }
+
+    /* Proyectos*/
+    .imagen__proyectos{
+        width: 100%;
+        border-radius: 25px;
+    }
+    .proyecto__container{
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .proyecto{
+        width: 80%;
+        height: 500px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    /* SECCION CLIENTES */
+
+    .imagen__clientes {
+        width: 250px;
+        height: 150px;
+        object-fit: cover;
+    }
+    .clientes-contenedor{
+        width: 100%;
+        display: flex;
+    }
+    .clientes__slider{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-shrink: 0;
+        border: 1px solid black;
+        background-color: #394254;
+    }
+    .clientes__slider > .imagen__clientes{
+        margin: 20px;
+    }
+    .clientes__slider > p {
+        display: block;
+        text-align: left;
+        font-size: 15px;
+    }
 
 
 }
