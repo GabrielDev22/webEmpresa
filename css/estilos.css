@@ -308,7 +308,7 @@ h2{
     margin-bottom: 30px;
 }
 
-@media screen and (max-width: 500px){
+@media screen and (max-width: 400px){
     /*Menu de la pagina  */
     body{
         margin: 0 auto;
