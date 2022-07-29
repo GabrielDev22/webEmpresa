@@ -237,6 +237,7 @@ h2{
     /*Menu de la pagina  */
     body{
         width: 500px;
+        margin: 0 auto;
     }
     .menu{
         width: 500px;
